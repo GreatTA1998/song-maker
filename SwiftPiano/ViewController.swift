@@ -331,7 +331,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
             checkHarmony()
             convertHarmony()
             self.message.text = "We have chords, now we just need a melody"
-            checkMode()
+            checkMode();
         }
     }
     
